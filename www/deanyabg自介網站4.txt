@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dean Yang - 自介網站</title>
+    <style>
+        body {
+         background-image: url('sea-ocean_00110.jpg');
+         background-size: cover;
+        }
+        header {
+            background-color:#ADADAD;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            opacity: 1.0;
+        }
+        nav {
+            background-color:#BEBEBE;
+            color: #000000;
+            text-align: center;
+            padding: 10px 0;
+            opacity: 1.0;
+        }
+        nav a {
+            color:#000000;
+            text-decoration: none;
+            margin: 0 15px;
+            opacity: 1.0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:#D0D0D0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0.8;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color:#fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dean Yang</h1>
+        <p>藝術家</p>
+    </header>
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+    <div id="about" class="container">
+        <h2>關於我</h2>
+        <p>
+            你好，我是Dean Yang。我是一個繪師，目前居住在台灣的某個地方。興趣是烏克麗麗和繪畫，偶爾會追點動漫awa
+        </p>
+    </div>
+    <div id="portfolio" class="container">
+        <h2>作品集</h2>
+        <p>
+            這裡有一些我的作品。你可以在下方查看更多細節，或者點擊圖片進入作品詳情頁面。
+        </p>
+        <!-- 在這裡添加你的作品展示 -->
+    </div>
+    <div id="contact" class="container">
+        <h2>聯絡我</h2>
+        <p>
+            如果你對我的作品感興趣，或者想要和我合作，請通過以下方式聯絡我：
+        </p>
+        <ul>
+            <li>Email: deanyang99630.10242@gmail.com</li>
+            <li>電話: 0983-064-266</li>
+            <li>社交媒體:discord:dy_surf</li>
+        </ul>
+    </div>
+    <footer>
+        © 2024 Dean Yang. 個人自介
+    </footer>
+</body>
+</html>
+
